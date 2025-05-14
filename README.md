@@ -18,4 +18,6 @@ Quickly open your current Chessable analysis position on Lichess to practice aga
 4. The position will be opened in the Lichess Analysis Board
 5. You can then click 'Practice with Computer' at the bottom right - the Bullseye icon 🎯
 
+![Opening the position in Lichess](https://github.com/LRS4/chessable-practice-against-computer/blob/main/example.PNG?raw=true)
+
 Not affiliated with Chessable or Lichess this project was for learning only. Please check the code before installing.
