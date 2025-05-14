@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Chessable Practice At Lichess",
+  "version": "1.0",
+  "description": "Quickly open your current Chessable analysis position on Lichess to practice against the computer.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.chessable.com/analysis/fen/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Chessable Practice At Lichess"
+  }
+}
